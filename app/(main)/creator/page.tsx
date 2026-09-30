@@ -1,6 +1,14 @@
 import CourseCard from "@/components/CourseCard";
 import CreatorProfile from "@/components/CreatorProfile";
 import Label from "@/components/Label";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Course Creator | ByteSpace",
+  description:
+    "Learn more about the instructor behind the course, including their expertise, experience, and teaching background.",
+};
 const CreatorPage = () => {
   return (
     <>
