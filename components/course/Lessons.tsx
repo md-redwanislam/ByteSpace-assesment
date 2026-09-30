@@ -17,7 +17,7 @@ const lessons = [
   {
     title: "Module 5: Interactive Media and Engagement",
     description:
-      "Engage your audience with lessons like 'Creating Interactive Presentations' and 'Integrating Multimedia Elements.' Master the art of creating immersive digital experiences.",
+      "Engage your audience with lessons like 'Creating Interactive Presentations' and 'Integrating Multimedia Elements.' Master the art of creating immersive digital.",
   },
   {
     title: "Module 6: Project Showcase and Critique",

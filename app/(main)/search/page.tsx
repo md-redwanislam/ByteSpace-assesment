@@ -4,6 +4,14 @@ import Hero from "@/components/Hero";
 import Label from "@/components/Label";
 import Pagination from "@/components/Pagination";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Explore Courses | ByteSpace",
+  description:
+    "Browse ByteSpace courses and discover learning opportunities designed to help you build skills and advance your knowledge.",
+};
+
 const Search = () => {
   return (
     <div>

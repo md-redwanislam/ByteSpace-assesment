@@ -6,11 +6,19 @@ import Lessons from "@/components/course/Lessons";
 import Reviews from "@/components/course/Reviews";
 import VideoThumbnail from "@/components/course/VideoThumbnail";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Course Details | ByteSpace",
+  description:
+    "Explore detailed course information, curriculum, learning outcomes, and everything you need to know before enrolling.",
+};
+
 const CourseDetails = () => {
   return (
     <div className="w-full bg-white">
       {/* Hero / Video Area */}
-      <section className="relative h-[884px] w-full overflow-visible bg-[#003BE2]">
+      <section className="relative h-[865px] w-full overflow-visible bg-[#003BE2]">
         {/* Grid Background */}
         <div
           className="absolute inset-0"
@@ -19,7 +27,7 @@ const CourseDetails = () => {
               linear-gradient(rgba(255,255,255,0.10) 1px, transparent 1px),
               linear-gradient(90deg, rgba(255,255,255,0.10) 1px, transparent 1px)
             `,
-            backgroundSize: "48px 48px",
+            backgroundSize: "70px 70px",
           }}
         />
         <CourseDetailsHeader />
