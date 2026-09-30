@@ -21,9 +21,9 @@ export default function Home() {
         <PartnerLogos />
         <CategoryTabs />
         <CourseCard />
-        <CTA />
         <Service />
         <PublicitySection />
+        <CTA />
         <Testimonial />
       </section>
     </main>
