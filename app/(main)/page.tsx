@@ -8,14 +8,19 @@ import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
-    <main className="text-[#F5F5F6] ">
+    <main className="text-[#F5F5F6]">
       <section className="relative min-h-256 overflow-hidden">
         {/* Hero content */}
-        <Hero />
+        <Hero
+          title="Get Access to Hundreds Courses Available"
+          description="Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses."
+          searchPlaceholder="Course, topic, creator"
+          actionLabel="Search"
+        />
         <PartnerLogos />
         <CategoryTabs />
-        <CTA />
         <CourseCard />
+        <CTA />
         <Service />
         {/* <PublicitySection /> */}
         <Testimonial />

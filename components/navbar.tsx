@@ -32,15 +32,15 @@ export default function Navigation() {
 
         {/* Main navigation */}
         <nav className="hidden items-center gap-6 md:flex">
-          <Link href="#" className="text-base font-medium leading-4.75">
+          <Link href="/" className="text-base font-medium leading-4.75">
             Home
           </Link>
 
-          <Link href="#" className="text-base leading-6.5">
+          <Link href="/search" className="text-base leading-6.5">
             Courses
           </Link>
 
-          <Link href="#" className="text-base leading-6.5">
+          <Link href="/creator" className="text-base leading-6.5">
             Creators
           </Link>
         </nav>

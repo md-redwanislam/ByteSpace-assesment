@@ -39,7 +39,7 @@ const courseInfos = [
 const CourseCard = () => {
   return (
     <section className="w-full bg-white">
-      <div className="mx-auto w-full max-w-[1202px] px-6 py-20 lg:px-0">
+      <div className="mx-auto w-full max-w-[1202px] px-6 py-8 lg:px-0">
         <div className="grid grid-cols-1 justify-items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {courseInfos.map((course) => (
             <article
