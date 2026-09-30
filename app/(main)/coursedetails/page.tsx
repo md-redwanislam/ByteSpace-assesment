@@ -1,3 +1,4 @@
+import CourseDetailsHeader from "@/components/course/CourseDetailsHeader";
 import CourseInfos from "@/components/course/CourseInfos";
 import Description from "@/components/course/Description";
 import DetailsButton from "@/components/course/DetailsButton";
@@ -9,7 +10,7 @@ const CourseDetails = () => {
   return (
     <div className="w-full bg-white">
       {/* Hero / Video Area */}
-      <section className="relative h-[584px] w-full overflow-visible bg-[#003BE2]">
+      <section className="relative h-[884px] w-full overflow-visible bg-[#003BE2]">
         {/* Grid Background */}
         <div
           className="absolute inset-0"
@@ -21,6 +22,7 @@ const CourseDetails = () => {
             backgroundSize: "48px 48px",
           }}
         />
+        <CourseDetailsHeader />
 
         <div className="relative mx-auto w-[1200px]">
           {/* Video */}
