@@ -1,9 +1,9 @@
-import DetailsButton from "./DetailsButton";
+import CourseDetailsTabs from "./CourseDetailsTabs";
 
 export default function CourseDetails() {
   return (
     <section className="w-full">
-      <DetailsButton />
+      <CourseDetailsTabs />
     </section>
   );
 }

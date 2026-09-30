@@ -1,9 +1,6 @@
 import CourseDetailsHeader from "@/components/course/CourseDetailsHeader";
+import CourseDetailsTabs from "@/components/course/CourseDetailsTabs";
 import CourseInfos from "@/components/course/CourseInfos";
-import Description from "@/components/course/Description";
-import DetailsButton from "@/components/course/DetailsButton";
-import Lessons from "@/components/course/Lessons";
-import Reviews from "@/components/course/Reviews";
 import VideoThumbnail from "@/components/course/VideoThumbnail";
 
 import type { Metadata } from "next";
@@ -48,11 +45,7 @@ const CourseDetails = () => {
       {/* Bottom content */}
       <section className="mx-auto w-[1200px]">
         <div className="w-[725px] pt-6">
-          <DetailsButton
-            about={<Description />}
-            lessons={<Lessons />}
-            reviews={<Reviews />}
-          />
+          <CourseDetailsTabs />
         </div>
       </section>
     </div>
