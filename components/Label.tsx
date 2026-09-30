@@ -1,4 +1,4 @@
-import { Funnel, Shapes, Signal, TextAlignStart } from "lucide-react";
+import { Funnel, Shapes, SignalHigh, TextAlignStart } from "lucide-react";
 
 type LabelVariant = "filter" | "level" | "category" | "relevant";
 
@@ -15,7 +15,7 @@ const labelConfig = {
   },
   level: {
     label: "Level",
-    icon: Signal,
+    icon: SignalHigh,
     width: "w-[97px]",
   },
   category: {
