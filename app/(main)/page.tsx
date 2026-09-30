@@ -3,6 +3,7 @@ import CourseCard from "@/components/CourseCard";
 import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import PartnerLogos from "@/components/PartnerLogos";
+import PublicitySection from "@/components/PublicitySection";
 import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonial";
 
@@ -22,7 +23,7 @@ export default function Home() {
         <CourseCard />
         <CTA />
         <Service />
-        {/* <PublicitySection /> */}
+        <PublicitySection />
         <Testimonial />
       </section>
     </main>

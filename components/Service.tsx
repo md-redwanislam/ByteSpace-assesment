@@ -185,10 +185,10 @@ const services: Service[] = [
   },
 ];
 
-function ServiceCard({ title, href, icon }: Service) {
+function ServiceCard({ title, icon }: Service) {
   return (
     <Link
-      href={href}
+      href="#"
       className="
         group
         flex aspect-square w-full

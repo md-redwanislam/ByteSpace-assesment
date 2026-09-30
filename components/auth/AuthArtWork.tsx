@@ -1,11 +1,12 @@
 import backCard from "@/public/card-2.jpg";
 import frontCard from "@/public/card-3.jpg";
 import cone from "@/public/cone.png";
-import avatar from "@/public/h_image-2.png";
 import spring from "@/public/spring-1.png";
 import triangle from "@/public/triangle.png";
 import Image from "next/image";
+import CourseAvatar from "../CourseAvatar";
 import CourseMetadata from "../CourseMetadata";
+import HappCardAvatar from "../HappCardAvatar";
 export default function AuthArtwork() {
   return (
     <div className="pointer-events-none absolute left-[6.74%] top-[29.78%] h-[585px] w-[548px]">
@@ -38,17 +39,26 @@ export default function AuthArtwork() {
         </div>
 
         {/* Beginner badge */}
-        <div className="absolute left-4 top-[296px] flex h-8 items-center gap-1 rounded-full bg-[#F5F5F6] px-3">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M4 20V16H7V20H4ZM9 20V12H12V20H9ZM14 20V8H17V20H14ZM19 20V4H22V20H19Z"
-              fill="#4B4C53"
-            />
-          </svg>
+        <div className="absolute left-4 top-[296px] flex items-center gap-3">
+          <div className="flex items-center gap-1 rounded-full bg-[#F5F5F6] px-3 py-1.5">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M4 20V16H7V20H4ZM9 20V12H12V20H9ZM14 20V8H17V20H14ZM19 20V4H22V20H19Z"
+                fill="#4B4C53"
+              />
+            </svg>
 
-          <span className="font-sans text-[12px] font-medium leading-[14px] text-[#4B4C53]">
-            Beginner
-          </span>
+            <span className="font-sans text-[12px] font-medium leading-5 text-[#4B4C53]">
+              Beginner
+            </span>
+          </div>
+
+          <div className="flex items-center">
+            <CourseAvatar />
+            <div className="-ml-3 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-[#242528] text-[12px] font-bold text-white">
+              26+
+            </div>
+          </div>
         </div>
 
         {/* Price */}
@@ -109,16 +119,9 @@ export default function AuthArtwork() {
           </div>
 
           <div className="flex items-center">
-            {Array.from({ length: 4 }).map((_, index) => (
-              <Image
-                key={index}
-                src={avatar}
-                alt="Avatar"
-                className="-ml-3 h-[43px] w-[43px] rounded-full border-2 border-[#D4FB20] object-cover first:ml-0"
-              />
-            ))}
+            <CourseAvatar />
             <div className="-ml-3 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-[#242528] text-[12px] font-bold text-white">
-              2K+
+              26+
             </div>
           </div>
         </div>
@@ -152,15 +155,7 @@ export default function AuthArtwork() {
         </div>
 
         <div className="mt-2 flex">
-          {Array.from({ length: 6 }).map((_, index) => (
-            <Image
-              key={index}
-              src={avatar}
-              alt="Avatar"
-              className="-ml-3 h-[43px] w-[43px] rounded-full border-2 border-[#D4FB20] object-cover first:ml-0"
-            />
-          ))}
-
+          <HappCardAvatar />
           <div className="-ml-3 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-[#242528] text-[12px] font-bold text-white">
             2K+
           </div>

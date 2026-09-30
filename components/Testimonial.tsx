@@ -1,5 +1,6 @@
 import test_1 from "@/public/test-1.png";
 import test_2 from "@/public/test-2.png";
+import test_3 from "@/public/test-3.png";
 import Image from "next/image";
 
 const testimonials = [
@@ -18,7 +19,7 @@ const testimonials = [
   {
     name: "Alex B.",
     role: "Inspired Creator",
-    image: test_2,
+    image: test_3,
     text: `"As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It's fulfilling to see my courses making a positive impact on learners globally."`,
   },
 ];

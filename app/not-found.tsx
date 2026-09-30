@@ -1,5 +1,5 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/navbar";
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/navbar";
 import Link from "next/link";
 
 export default function NotFound() {
